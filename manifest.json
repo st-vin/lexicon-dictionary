@@ -1,11 +1,11 @@
 {
-	"id": "obsidian-lexicon-dictionary-plugin",
+	"id": "lexicon-dictionary",
 	"name": "Dictionary Lexicon",
 	"version": "1.0.0",
 	"minAppVersion": "1.0.0",
 	"description": "Look up words and improve vocabulary by using flash card style cards.",
 	"author": "Alvin",
-	"authorUrl": "https://github.com/st-vin/obsidian-lexicon-dictionary-plugin",
+	"authorUrl": "https://github.com/st-vin",
 	"fundingUrl": "https://buymeacoffee.com/st.vin",
 	"isDesktopOnly": false
 }
