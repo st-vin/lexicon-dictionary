@@ -1,0 +1,92 @@
+/* WordNet Plugin Styles */
+
+/* Dictionary suggester styles */
+.wn-suggest-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 8px;
+    padding-top: 8px;
+    border-top: 1px solid var(--background-modifier-border);
+  }
+  
+  .wn-suggest-actions button {
+    padding: 4px 12px;
+    margin-left: 8px;
+    border-radius: 4px;
+    background: var(--interactive-normal);
+    color: var(--text-normal);
+    border: 1px solid var(--background-modifier-border);
+    cursor: pointer;
+    font-size: 12px;
+    transition: background-color 0.15s ease;
+  }
+  
+  .wn-suggest-actions button:hover {
+    background: var(--interactive-hover);
+  }
+  
+  .wn-suggest-actions button:active {
+    background: var(--interactive-accent);
+    color: var(--text-on-accent);
+  }
+  
+  /* Flashcard modal styles */
+  .wn-flashcard {
+    padding: 20px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .wn-flashcard-term {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: var(--text-accent);
+  }
+  
+  .wn-flashcard-definition {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    padding: 20px;
+    background: var(--background-secondary);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    max-width: 500px;
+    transition: opacity 0.3s ease;
+  }
+  
+  .wn-flashcard-definition.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  .wn-flashcard-controls {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .wn-flashcard-controls button {
+    padding: 8px 16px;
+    border-radius: 4px;
+    background: var(--interactive-normal);
+    color: var(--text-normal);
+    border: 1px solid var(--background-modifier-border);
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.15s ease;
+  }
+  
+  .wn-flashcard-controls button:hover {
+    background: var(--interactive-hover);
+  }
+  
+  .wn-flashcard-controls button:active {
+    background: var(--interactive-accent);
+    color: var(--text-on-accent);
+  }
