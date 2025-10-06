@@ -5,7 +5,6 @@
 	"minAppVersion": "1.0.0",
 	"description": "Look up words and improve vocabulary by using flash card style cards.",
 	"author": "Alvin",
-	"authorUrl": "https://github.com/st-vin",
 	"fundingUrl": "https://buymeacoffee.com/st.vin",
 	"isDesktopOnly": false
 }
